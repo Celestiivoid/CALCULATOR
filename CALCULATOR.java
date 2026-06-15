@@ -35,11 +35,11 @@ public class CALCULATOR {
                     System.out.println("Answer: " + result);
                 }
                 else {
-                    System.out.println("Cannot divide by 0. Try again.");
+                    System.out.println("Cannot divide by 0.");
                 }
                 break;
             default:
-                System.out.println("The operator " + operator + " is not valid.");
+                System.out.println("The operator " + operator + " is not valid. Try again.");
         }
     }
 }
