@@ -15,7 +15,7 @@ public class CALCULATOR {
 
         System.out.println("Enter the second number: ");
         num2 = scanner.nextDouble();
-
+        
         switch(operator) {
             case '+':
                 result = num1 + num2;
@@ -39,7 +39,7 @@ public class CALCULATOR {
                 }
                 break;
             default:
-                System.out.println("The operator " + operator + " is not valid. Try again.");
+                System.out.println("The operator " + operator + " is not valid.");
         }
     }
 }
